@@ -1520,14 +1520,14 @@
         <carbon.governance.version>4.7.8</carbon.governance.version>
 
         <!-- Carbon Device Management-->
-        <carbon.device.mgt.version>3.0.240</carbon.device.mgt.version>
+        <carbon.device.mgt.version>3.0.236</carbon.device.mgt.version>
         <carbon.device.mgt.version.range>[3.0.0, 4.0.0)</carbon.device.mgt.version.range>
 
         <!-- IOT Device Management -->
         <product.iot.version>${project.version}</product.iot.version>
 
         <!-- Carbon Device Management Plugins-->
-        <carbon.device.mgt.plugin.version>4.0.136</carbon.device.mgt.plugin.version>
+        <carbon.device.mgt.plugin.version>4.0.133</carbon.device.mgt.plugin.version>
 
         <!-- API Management -->
         <carbon.api.mgt.version>6.1.109</carbon.api.mgt.version>
@@ -1857,16 +1857,5 @@
             </releases>
         </repository>
     </repositories>
-    <distributionManagement>
-        <repository>
-            <id>releases</id>
-            <name>长城数字软件产品库</name>
-            <url>http://192.168.200.69:8081/nexus/content/repositories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>长城数字软件开发库</name>
-            <url>http://192.168.200.69:8081/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
+
 </project>
