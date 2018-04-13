@@ -33,3 +33,9 @@ target
 .DS_Store
 *.pyc
 .sonar
+
+#######################
+#porduct-iots
+#######################
+modules/integration/tests-integration/src/test/resources/client/modules/addressing-1.6.1-wso2v22.mar
+modules/integration/tests-iot-web-ui/src/test/resources/client/modules/addressing-1.6.1-wso2v22.mar
